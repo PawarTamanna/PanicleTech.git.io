@@ -1,0 +1,899 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppings", sans-serif;
+}
+button{
+    cursor: pointer;
+}
+
+.container-1{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.hp-logo{
+    padding-bottom: 150px;
+}
+.hp-text{
+    display: flex;
+    width: 50%;
+    background-color: rgb(249, 249, 247);
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.hp-textcontainer{
+    margin-left: 30px;
+}
+
+.hp-heading{
+    color: rgb(141, 21, 133);
+    font-size: 65px;
+}
+
+.hp-cap{
+    padding: 20px 0;
+}
+
+.hp-caption{
+    color: #555;
+    font-size: 20px;
+}
+
+.hp-caption span{
+    font-weight: bold;
+}
+
+.hp-cap button{
+    background-color: rgb(114, 18, 121);
+    padding: 13px 40px;
+    border-style: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    /* cursor: pointer; */
+}
+
+.hp-cap button:hover{
+    box-shadow:  10px 10px 14px rgba(0, 0, 0, 0.3);
+}
+
+.hp-img{
+    background-image: url(images/bg_1.jpeg);
+    width: 50%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+}
+
+.hp-btn{
+    padding: 20px;
+}
+
+.hp-btn .hp-but{
+    outline: none;
+    border-style: none;
+    background-color: rgb(114, 18, 121);
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 19px;
+    margin: 0 10px;
+}
+
+.hp-btn .hp-but:hover{
+    box-shadow:  7px 7px 7px rgba(0, 0, 0, 0.3);
+    background-color: rgb(114, 18, 121);
+}
+
+.hp-btn .hp-btn-mail{
+    margin-left: 10px;
+    outline: none;
+    border-style: none;
+    background-color: rgb(228, 218, 249);
+    padding: 15px;
+    font-size: 19px;
+    border-radius: 10px;
+    box-shadow:  3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.hp-btn .hp-btn-mail:hover{
+    box-shadow:  7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+.hp-logo button{
+    font-size: 30px;
+    color: rgb(141, 21, 133);
+    outline: none;
+    margin: 20px;
+    border-style: none;
+    width: 65px;
+    height: 60px;
+    /* font-size: 19px; */
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow:  3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.hp-head{
+    padding-left: 70px;
+}
+
+.hp-cap{
+    padding-left: 70px;
+}
+
+.hp-logo button:hover{
+    box-shadow:  7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+.hp-logo img{
+    width: 65px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+/* ---------------------- About Us Css ---------------------- */
+.page-2-bg{
+    background-color: rgb(247, 241, 247);
+    padding: 10px;
+}
+
+.about-us{
+    background-color: rgb(42, 42, 62);
+    background-size: cover;
+    width: calc(100% - 20px);
+    height: 100%;
+    border-radius: 30px;
+    margin: 10px 10px 10px 10px;
+}
+
+.row-1{
+    display: flex;
+}
+
+.clm-1{
+    border-style: none;
+    outline: none;
+    background-color: blueviolet;
+    padding: 30px 40px 30px 15px ;
+    margin: 90px 0 14px 90px;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.clm-1 span{
+    padding: 20px;
+    background-color: rgb(174, 109, 235);
+    border-radius: 10px;
+}
+
+.menu{
+    border-style: none;
+    outline: none;
+    background-color: rgb(68, 73, 107);
+    padding: 20px 150px 20px 30px ;
+    margin: 90px 0 14px 10px;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    list-style-type: square;
+    list-style-position: inside;
+    color: rgb(80, 87, 126);
+    font-size: 40px;
+}
+
+.categories li{
+    padding-left: 50px;
+}
+
+.categories li span{
+    color: white;
+    font-size: 25px;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 240, 247);
+    margin: 0px 90px 6px 90px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.hp-log button{
+    color: rgb(141, 21, 133);
+    font-size: 30px;
+    outline: none;
+    margin: 20px;
+    border-style: none;
+    width: 85px;
+    height: 80px;
+    background-color: rgb(249, 240, 247);
+    /* font-size: 19px; */
+    border-radius: 10px;
+    margin: 20px;
+    /* box-shadow:  3px 3px 3px rgba(0, 0, 0, 0.3); */
+}
+
+
+.hp-log img{
+    width: 85px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.health{
+    margin: 50px;
+    font-size: 30px;
+    color: rgb(141, 21, 133);
+}
+
+.row-3{
+    display: flex;
+}
+
+.ai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    background-image: url(images/ai.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 6px 0 10px 90px;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.ml{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/ml.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 6px 90px 10px 10px;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.au-text{
+    display: flex;
+}
+
+.au-text-1{
+    width: 50%;
+    color: white;
+    font-size: 25px;
+    margin: 90px ;
+}
+
+.au-text-2{
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    margin: 90px ;
+}
+
+.au-btn-t2{
+    margin-top: 20px;
+}
+
+.au-btn-t2 button{
+    outline: none;
+    padding: 10px 30px;
+    background-color: rgb(42, 42, 62);
+    border:1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.au-btn-t2 button:hover{
+    border:1px solid rgb(42, 42, 62) ;
+    color: rgb(42, 42, 62);
+    background-color: white;
+}
+
+/* ------------------------- PAGE 3 ------------------------------- */
+
+.page-3-bg{
+    background-color: rgb(247, 241, 247);
+}
+
+.page-3{
+    background-color: black;
+    border-radius: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+.title-page-3{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+.pg-3-img img{
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.pg-3-text{
+    padding: 50px;
+    color: white;
+    margin: 50px;
+    font-size: 25px;
+}
+
+.pg-3-text button{
+    outline: none;
+    border:1px solid white;
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.pg-3-text button:hover{
+    border:1px solid black;
+    color: black;
+    background-color: white;
+}
+
+/* -------------------------- PAGE 4 ------------------------------- */
+
+.page-4{
+    background-color: rgb(247, 241, 247);
+    padding-bottom: 70px;
+}
+
+.pg4-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.pg4-btn button{
+    outline: none;
+    border: 1px solid #555;
+    background-color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    color: #555;
+}
+
+.pg4-btn button:hover{
+    border: 1px solid white;
+    background-color: #555;
+    color: white;
+}
+
+.pg4-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(141, 21, 133) ;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    margin:0 0 10px 20px;
+}
+
+.icon-card{
+    padding-top: 20px; 
+}
+
+.icon-card span{
+    background-color: rgb(247, 241, 247);
+    padding: 13px;
+    color: rgb(141, 21, 133);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0;
+}
+
+.card-title i{
+    margin-left: 300px;
+}
+
+.card-description{
+    color: #555;
+}
+
+.pg4-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-4-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 250px 20px 270px;
+}
+
+.page-4-link span{
+    color: rgb(7, 120, 241);
+}
+
+.page-4-link button{
+    outline: none;
+    border-style: none;
+    background-color: rgb(141, 21, 133);
+    padding: 15px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.page-4-link button:hover{
+    background-color: rgb(247, 241, 247);
+    border: 1px solid rgb(141, 21, 133);
+    color: rgb(141, 21, 133);
+}
+
+/* ---------------------- PAGE 5 -------------------------- */
+
+.bg-page5{
+    background-color: rgb(247, 241, 247);
+    padding: 20px;
+}
+
+.core-fea{
+    background-color: white;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+
+.sec1-pg5{
+    padding: 10px;
+}
+
+.sec1-pg5 img{
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.3)
+}
+
+.pg5-title{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+    color: rgb(141, 21, 133);
+    font-size: 25px;
+}
+
+.sec1-pg5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 150px;
+}
+
+.fit-1-btn{
+    margin-bottom: 40px ;
+} 
+
+.fit-1-btn span{
+    border: 1px solid rgb(141, 21, 133);
+    color: rgb(141, 21, 133);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.text-sec1{
+    padding: 0 350px 0 10px ;
+}
+
+.fit-1-head{
+    color: rgb(141, 21, 133);
+}
+
+.fit-1-text{
+    color: #555;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fit1-check{
+    color: rgb(141, 21, 133);
+    padding: 20px 0;
+}
+
+.fit1-check ul{
+    list-style: none;
+}
+
+.fit-btn button{
+    outline: none;
+    border-style: none;
+    background-color: rgb(141, 21, 133);
+    color: white;
+    padding: 15px 45px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.fit-btn button:hover{
+    background-color: white;
+    border: 1px solid rgb(141, 21, 133);
+    color: rgb(141, 21, 133);
+}
+
+.rew-pg5{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.res-spd{
+    padding-right: 30px;
+}
+
+.res-spd h2{
+    color: rgb(141, 21, 133);
+}
+
+.res-spd p{
+    color: #555;
+}
+
+.llm h2{
+    color: rgb(141, 21, 133);
+}
+.llm p{
+    color: #555;
+}
+
+.sec2-pg5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 350px 70px 50px;
+}
+
+.sec2-pg5 img{
+    width: 35%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.3)
+}
+
+.text-sec2{
+    padding-left: 100px;
+}
+
+.sec3-pg5 img{
+    width: 28%;
+    height: 40%;
+}
+
+.sec-3-acc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-3-acc p{
+    color: rgb(141, 21, 133);
+    padding-right: 30px;
+}
+
+.line{
+    width: 250px;
+    height: 4px;
+    background-color: #d6d1d1;
+    margin: 5px 0px;
+    border-radius: 2px;
+}
+
+.line span{
+    width: 90%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgb(141, 21, 133);
+    display: block;
+}
+.padding-btn{
+    padding-top: 20px;
+}
+
+/* ----------------------------- PAGE 6 -------------------------------- */
+
+.pg-6-bg{
+    background-color: rgb(247, 241, 247);
+    padding:0 20px 20px 20px;
+}
+
+.pg-6{
+    background-color: rgb(42, 42, 62);
+    border-radius: 30px;
+    padding: 90px;
+}
+
+.comm-head ul{
+    list-style-type: square;
+    color: blue;
+    font-size: 16px;
+    padding-left: 70px;
+}
+
+.comm-head ul li span{
+    color: white;
+}
+
+.pag-6-head{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 70px;
+}
+
+.pag-6-head span{
+    border: 1px solid white;
+    padding: 15px 35px;
+    border-radius: 10px;
+}
+
+.card-1-pg6{
+    background-color: rgb(85, 85, 106);
+    padding: 60px 50px;
+    border-radius: 15px;
+}
+
+.card-1-pg6 span{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(42, 42, 62);
+}
+
+.card-1-pg6 h2{
+    color: white;
+    padding: 40px 0 10px 0;
+}
+
+.card-1-pg6 p{
+    color: #c1c1ef;
+    font-size: 16px;
+}
+
+.pg6-card-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+}
+
+.pg6-card-btn button{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+.pg6-card-btn i {
+    color: white;
+    font-size: 14px;
+}
+
+.pg-6-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card-1-pg6{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pg-6-view-btn{
+    justify-content: center;
+    display: flex;
+}
+
+/* ------------------------------ PAGE 8 ------------------------------------ */
+
+.pg-8-bg{
+    background-color: rgb(247, 241, 247);
+    padding:0 20px 20px 20px;
+}
+
+.pag-8{
+    background-color: rgb(254, 234, 251);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pag-8 img{
+    width: 40%;
+    border-radius: 30px;
+}
+
+.pg8-text{
+    padding: 70px 400px 30px 30px;
+}
+
+.pg8-text ul{
+    list-style-type: square;
+    color: pink;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.pg8-text ul span{
+    color: rgb(141, 21, 133);
+}
+
+.pg8-text h1{
+    color: rgb(141, 21, 133);
+}
+
+.pg8-btn{
+    padding-top: 20px;
+}
+
+.pg8-btn button{
+    color: rgb(141, 21, 133);
+    border: 1px solid rgb(141, 21, 133);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: 16px;
+}
+
+.pg8-btn button:hover{
+    background-color: rgb(141, 21, 133);
+    border: 1px solid rgb(254, 234, 251);
+    color: rgb(254, 234, 251);
+}
+
+/* -------------------------------- PAGE 9 -------------------------------- */
+
+.pg-9-bg{
+    background-color: rgb(247, 241, 247);
+    padding:0 20px 20px 20px;
+}
+
+.pg-9{
+    background-color: rgb(42, 42, 62);
+    border-radius: 30px;
+}
+
+.logo-pg9{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-pg9 span{
+    padding: 15px 20px;
+    background-color: rgb(141, 21, 133);
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.pg9-cap{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.pg9-ul ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding:100px 200px 100px 200px;
+    font-size: 20px;
+    color: white;
+}
+
+.pg9-ul ul li:hover{
+    font-weight: bold;
+}
+
+.media ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+.media ul li{
+    padding:0 30px 60px 30px;
+}
+
+.media ul li i:hover{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cr{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.cr p{
+    padding: 0 20px 30px 20px;
+}
+
+.cr ul{
+    list-style-type: square;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 0 20px;
+    list-style-position: inside;
+}
+
+.cr ul li{
+    padding: 0 15px;
+}
+
+.pg9-download-btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pg9-download-btn button{
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(141, 21, 133);
+    padding: 20px 295px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.pg9-download-btn button:hover{
+    border: 1px solid rgb(141, 21, 133);
+    color: rgb(141, 21, 133);
+    background-color: rgb(247, 241, 247);
+}
